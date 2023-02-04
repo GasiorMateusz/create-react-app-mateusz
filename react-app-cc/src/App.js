@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ClickMeButton from './components/ClickMeButton'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         >
           Learn React
         </a>
-        <button>Click me!</button>
+        <ClickMeButton />
+        {/*innerText={"text"}*/}
       </header>
     </div>
   );
